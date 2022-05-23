@@ -1,0 +1,72 @@
+table {
+    background-color: rgb(241, 232, 232);
+    border: 2px solid black;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+th {
+    border-bottom: 2px solid black;
+    padding: 1em;
+    text-align: 0 auto;
+    font-weight: bolder;
+    color: rgb(78, 78, 78);
+    background-color: rgb(250, 202, 139);
+}
+
+h2, h1 {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: .4em;
+    font-size: 4em;
+}
+
+td {
+    padding: .4em;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.borderSides {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 80em;
+}
+
+.proparty {
+    font-family: monospace, sans-serif;
+    background-color: rgb(240, 202, 152);
+    font-weight: 300;
+}
+
+body {
+    background-color: rgb(186, 209, 224);
+}
+
+nav {
+    position: fixed;
+    display: block;
+    width: 4em;
+    border: 2px solid black;
+    margin-top: 17em;
+    background-color: rgb(250, 202, 139);
+    padding-right: 0em;
+    
+}
+
+nav li {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(250, 202, 139);
+}
