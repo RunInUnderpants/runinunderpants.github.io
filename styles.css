@@ -50,23 +50,34 @@ body {
 }
 
 nav {
+    height: 5%;
+    width: 100%;
     position: fixed;
-    display: block;
-    width: 4em;
-    border: 2px solid black;
-    margin-top: 17em;
-    background-color: rgb(250, 202, 139);
-    padding-right: 0em;
-    
+    background-color: rgb(240, 202, 152);
+    text-align: center;
+    padding: auto;
+    z-index: 1;  
+    top: 0; 
 }
 
 nav li {
     font-weight: bolder;
     font-size: 1.2em;
+    display: inline;
+    
 }
 
 footer {
     width: 100%;
     text-align: center;
     background-color: rgb(250, 202, 139);
+}
+
+nav li a:hover {
+    color: gray;
+    font-size: 1.4em;
+}
+
+a {
+    text-decoration: none;
 }
